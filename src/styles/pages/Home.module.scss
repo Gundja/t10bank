@@ -1,0 +1,395 @@
+.mainContainer {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  > .limiter {
+    max-width: 850px;
+    width: 100%;
+
+    margin-top: 90px;
+
+    > section.highlight {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0 0 2rem;
+
+      aside {
+        display: flex;
+        flex-direction: column;
+
+        p {
+          font-size: 3rem;
+          font-family: "Ibm plex sans", arial, sans-serif;
+          font-weight: 500;
+        }
+        span {
+          font-size: 0.9rem;
+          color: #777;
+        }
+
+        button {
+          width: 10rem;
+          border-radius: 6px;
+          margin-top: 1.5rem;
+
+          padding: 0.2rem 0.1rem;
+          opacity: 1;
+
+          background: var(--unnamed-color-f97270) 0% 0% no-repeat padding-box;
+          color: var(--tertiary-white);
+
+          &:hover {
+            opacity: 90%;
+          }
+        }
+      }
+    }
+
+    > .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 5rem;
+
+      h2 {
+        font-size: 1rem;
+        letter-spacing: 0px;
+        color: #f97270;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+
+      > div {
+        margin-top: 2rem;
+
+        display: flex;
+        justify-content: space-around;
+
+        > aside {
+          max-width: 370px;
+          img {
+            width: 80%;
+          }
+        }
+
+        > div {
+          font-size: 0.9rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          h4 {
+            margin-bottom: 1rem;
+            text-align: left;
+            font: normal normal bold 1.5rem Josefin Sans;
+            letter-spacing: 0px;
+            color: #151d41;
+          }
+
+          p {
+            color: #151d41;
+            max-width: 300px;
+            text-align: left;
+            font: normal normal normal 16px Josefin Sans;
+            letter-spacing: 0px;
+            color: #151d41;
+            opacity: 1;
+          }
+
+          button {
+            width: 10rem;
+            border-radius: 6px;
+            margin-top: 1.5rem;
+
+            padding: 0.2rem 0.1rem;
+            opacity: 1;
+
+            background: var(--unnamed-color-f97270) 0% 0% no-repeat padding-box;
+            color: var(--tertiary-white);
+
+            &:hover {
+              opacity: 90%;
+            }
+          }
+        }
+      }
+    }
+
+    > .services {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      margin: 5rem 0 7rem;
+
+      h3 {
+        font-size: 1rem;
+        letter-spacing: 0px;
+        color: #f97270;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+      h2 {
+        text-align: center;
+        font: normal normal bold 2rem Josefin Sans;
+        letter-spacing: 0px;
+        color: #151d41;
+      }
+
+      > div {
+        margin-top: 3.5rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > aside {
+          max-width: 370px;
+
+          > div {
+            margin-right: 3rem;
+            padding: 1rem;
+            width: 300px;
+            min-height: 140px;
+
+            background: #ffffff 0% 0% no-repeat padding-box;
+            box-shadow: 0px 20px 20px #7682b72e;
+            border-radius: 5px;
+            opacity: 1;
+
+            .loadingBar {
+              width: 100%;
+              height: 0.5rem;
+              margin: 0.3rem 0 1rem;
+
+              background: #f9727033;
+
+              > div {
+                width: 70%;
+                height: 100%;
+                background: var(--unnamed-color-f97270) 0% 0% no-repeat
+                  padding-box;
+              }
+            }
+
+            P {
+              margin-top: 0.3rem;
+
+              text-align: left;
+              font: normal normal normal 14px Josefin Sans;
+              letter-spacing: 0px;
+              color: #686868;
+            }
+          }
+        }
+
+        > div {
+          font-size: 0.9rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          color: var(--tertiary-white);
+          background: var(--unnamed-color-f97270) 0% 0% no-repeat padding-box;
+          border-radius: 6px;
+          padding: 1rem;
+
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            max-width: 6rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 50%;
+            border: 2px solid var(--tertiary-white);
+          }
+
+          p {
+            max-width: 270px;
+            margin: 1rem 0;
+            color: var(--unnamed-color-ffffff);
+            text-align: left;
+            font: normal normal normal 16px Josefin Sans;
+            letter-spacing: 0px;
+          }
+
+          button {
+            width: 10rem;
+            border-radius: 6px;
+            margin-top: 1.2rem;
+
+            padding: 0.2rem 0.1rem;
+            opacity: 1;
+
+            background: var(--tertiary-white) 0% 0% no-repeat padding-box;
+            color: #444;
+
+            &:hover {
+              opacity: 90%;
+            }
+          }
+        }
+      }
+    }
+
+    > .portfolio {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      margin: 6rem 0;
+
+      h3 {
+        font-size: 1rem;
+        letter-spacing: 0px;
+        color: #f97270;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+      h2 {
+        text-align: center;
+        font: normal normal bold 2rem Josefin Sans;
+        letter-spacing: 0px;
+        color: #151d41;
+      }
+
+      > div {
+        display: flex;
+        flex-wrap: nowrap;
+
+        margin-top: 3.7rem;
+
+        > div {
+          position: relative;
+          max-width: 170px;
+          margin: 0 0.5rem;
+
+          .lock {
+            display: none;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            font-size: 1.5rem;
+
+            p {
+              margin-bottom: 0.4rem;
+            }
+          }
+
+          &:hover {
+            .lock {
+              display: initial;
+
+              text-align: center;
+              margin-top: 5rem;
+              color: white;
+            }
+
+            background: var(--unnamed-color-f97270) 0% 0% no-repeat padding-box;
+            opacity: 0.8;
+          }
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    > .feedback {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      margin: 6rem 0;
+
+      h3 {
+        font-size: 1rem;
+        letter-spacing: 0px;
+        color: #f97270;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+      h2 {
+        text-align: center;
+        font: normal normal bold 2rem Josefin Sans;
+        letter-spacing: 0px;
+        color: #151d41;
+      }
+
+      > form {
+        margin-top: 3rem;
+        width: 510px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+          width: 100%;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          border: 1px solid #151d41;
+          border-radius: 5px;
+          opacity: 1;
+          padding: 0.4rem 0.5rem;
+
+          margin: 0.8rem 0 0;
+        }
+
+        textarea {
+          margin: 0.8rem 0 0;
+          border: 1px solid #151d41;
+          border-radius: 5px;
+          padding: 1rem;
+          width: 100%;
+          resize: vertical;
+        }
+
+        > div {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          > input {
+            flex: 1;
+            width: auto;
+            max-width: 250px;
+          }
+        }
+
+        button {
+          width: 10rem;
+          height: 2.3rem;
+          border-radius: 6px;
+          margin-top: 1.5rem;
+
+          padding: 0.2rem 0.1rem;
+          opacity: 1;
+
+          background: var(--unnamed-color-f97270) 0% 0% no-repeat padding-box;
+          color: var(--tertiary-white);
+
+          &:hover {
+            opacity: 90%;
+          }
+        }
+      }
+    }
+  }
+}
